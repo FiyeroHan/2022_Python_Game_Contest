@@ -4,7 +4,7 @@ from module.level import Level
 from module.intro import Intro
 
 class Play:
-    def __init__(self):
+    def __init__(self): 
         self.max_level = 0
         self.status = 'intro'
         self.intro = Intro(screen, self.create_overworld)
